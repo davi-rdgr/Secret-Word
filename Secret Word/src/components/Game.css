@@ -6,14 +6,18 @@
     font-weight: bold;
 }
 
+.score {
+    color: #75a5ff;
+}
+
 .tip span {
-    color: #ecfa00;
+    color: #75a5ff;
 }
 
 .wordContainer {
     margin: 1.5em;
     padding: 1.5em;
-    border: 20px solid #ecfa00;
+    border: 20px solid #75a5ff;
     display: flex;
 }
 
@@ -46,4 +50,9 @@
     font: 2em;
     text-align: center;
     margin-right: 1em;
+}
+
+.paragraph {
+    color: #75a5ff;
+    font-size: 1.3em;
 }
