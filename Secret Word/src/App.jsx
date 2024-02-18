@@ -18,7 +18,7 @@ const stages = [
   { id: 3, name: "end" },
 ]
 
-const guessesQty = 3
+const guessesQty = 5
 
 function App() {
 
@@ -30,7 +30,7 @@ function App() {
 
   const [guessedLetters, setGuessedLetters] = useState([])
   const [wrongLetters, setWrontLetters] = useState([])
-  const [guesses, setGuesses] = useState(3)
+  const [guesses, setGuesses] = useState(5)
   const [score, setScore] = useState(0)
 
   const pickWordAndCategory = useCallback(() => {
